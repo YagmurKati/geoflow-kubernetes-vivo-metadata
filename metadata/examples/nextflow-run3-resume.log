@@ -1,0 +1,505 @@
+Nextflow 26.04.6 is available - Please consider updating your version to it
+
+ N E X T F L O W   ~  version 25.04.8
+
+Launching `main.nf` [sick_stonebraker] DSL2 - revision: 3d7ba6aad3
+
+[-        ] calc_indices:ndvi -
+[-        ] calc_indices:evi  -
+[-        ] calc_indices:nbr  -
+
+[-        ] calc_indices:ndvi              -
+[-        ] calc_indices:evi               -
+[-        ] calc_indices:nbr               -
+[-        ] calc_indices:ndti              -
+[-        ] calc_indices:arvi              -
+[-        ] calc_indices:savi              -
+[-        ] calc_indices:sarvi             -
+[-        ] explode_base_files:explode_pr  -
+[-        ] bui…ck:build_vrt_stack_process -
+
+[-        ] calc_indices:ndvi              -
+[-        ] calc_indices:evi               -
+[-        ] calc_indices:nbr               -
+[4e/61a1e6] calc_indices:ndti (2)          | 1 of 1, cached: 1
+[37/5b1f65] calc_indices:arvi (2)          | 1 of 1, cached: 1
+[3d/7e08d9] calc_indices:savi (1)          | 2 of 2, cached: 2
+[43/8c9e00] calc_indices:sarvi (2)         | 1 of 1, cached: 1
+[17/2fa0c0] exp…_base_files:explode_pr (1) | 1 of 1, cached: 1
+[-        ] bui…ck:build_vrt_stack_process -
+
+[da/5dee32] calc_indices:ndvi (2)          | 2 of 2, cached: 2
+[23/fa44c4] calc_indices:evi (2)           | 2 of 2, cached: 2
+[70/fae28e] calc_indices:nbr (2)           | 2 of 2, cached: 2
+[99/ae6a2e] calc_indices:ndti (1)          | 2 of 2, cached: 2
+[2a/a080d8] calc_indices:arvi (1)          | 2 of 2, cached: 2
+[3d/7e08d9] calc_indices:savi (1)          | 2 of 2, cached: 2
+[d7/51b085] calc_indices:sarvi (1)         | 2 of 2, cached: 2
+[d5/e6ed2f] exp…_base_files:explode_pr (2) | 2 of 2, cached: 2
+[-        ] bui…ck:build_vrt_stack_process -
+
+[da/5dee32] calc_indices:ndvi (2)          | 2 of 2, cached: 2
+[23/fa44c4] calc_indices:evi (2)           | 2 of 2, cached: 2
+[70/fae28e] calc_indices:nbr (2)           | 2 of 2, cached: 2
+[99/ae6a2e] calc_indices:ndti (1)          | 2 of 2, cached: 2
+[2a/a080d8] calc_indices:arvi (1)          | 2 of 2, cached: 2
+[3d/7e08d9] calc_indices:savi (1)          | 2 of 2, cached: 2
+[d7/51b085] calc_indices:sarvi (1)         | 2 of 2, cached: 2
+[e0/a036f9] exp…_base_files:explode_pr (4) | 4 of 4, cached: 4
+[-        ] bui…ck:build_vrt_stack_process -
+
+[da/5dee32] calc_indices:ndvi (2)          | 2 of 2, cached: 2
+[27/507c82] calc_indices:evi (4)           | 4 of 4, cached: 4
+[cb/964382] calc_indices:nbr (3)           | 3 of 3, cached: 3
+[21/f1a585] calc_indices:ndti (4)          | 4 of 4, cached: 4
+[0d/983d43] calc_indices:arvi (4)          | 4 of 4, cached: 4
+[ff/d3e2b4] calc_indices:savi (3)          | 4 of 4, cached: 4
+[df/ae23d4] calc_indices:sarvi (3)         | 4 of 4, cached: 4
+[b6/06c5be] exp…_base_files:explode_pr (6) | 6 of 6, cached: 6
+[-        ] bui…ck:build_vrt_stack_process -
+
+[f1/e44b34] calc_indices:ndvi (3)          | 4 of 4, cached: 4
+[0e/c28830] calc_indices:evi (5)           | 5 of 5, cached: 5
+[f7/eca507] calc_indices:nbr (4)           | 4 of 4, cached: 4
+[2c/ab853c] calc_indices:ndti (6)          | 5 of 5, cached: 5
+[0d/983d43] calc_indices:arvi (4)          | 4 of 4, cached: 4
+[ff/d3e2b4] calc_indices:savi (3)          | 4 of 4, cached: 4
+[2d/2923b7] calc_indices:sarvi (5)         | 5 of 5, cached: 5
+[05/9c11bc] exp…_base_files:explode_pr (7) | 7 of 7, cached: 7
+[-        ] bui…ck:build_vrt_stack_process -
+
+[0c/d9fc4f] calc_indices:ndvi (5)          | 6 of 6, cached: 6
+[ff/d68c3e] calc_indices:evi (7)           | 7 of 7, cached: 7
+[07/9c4486] calc_indices:nbr (6)           | 6 of 6, cached: 6
+[80/1f7452] calc_indices:ndti (7)          | 7 of 7, cached: 7
+[fd/a0550b] calc_indices:arvi (8)          | 7 of 7, cached: 7
+[da/eefc64] calc_indices:savi (5)          | 6 of 6, cached: 6
+[71/879158] calc_indices:sarvi (7)         | 7 of 7, cached: 7
+[d9/0d17d0] exp…_base_files:explode_pr (9) | 9 of 9, cached: 9
+[-        ] bui…ck:build_vrt_stack_process -
+
+[53/8b93ed] calc_indices:ndvi (8)          | 7 of 7, cached: 7
+[ff/d68c3e] calc_indices:evi (7)           | 7 of 7, cached: 7
+[62/2ac088] calc_indices:nbr (7)           | 7 of 7, cached: 7
+[8e/7c2bf8] calc_indices:ndti (8)          | 8 of 8, cached: 8
+[3f/ee2ae8] calc_indices:arvi (7)          | 8 of 8, cached: 8
+[64/ffbadb] calc_indices:savi (8)          | 8 of 8, cached: 8
+[8b/9017de] calc_indices:sarvi (8)         | 8 of 8, cached: 8
+[d9/0d17d0] exp…_base_files:explode_pr (9) | 9 of 9, cached: 9
+[-        ] bui…ck:build_vrt_stack_process -
+
+[8c/a97926] calc_indices:ndvi (9)          | 9 of 9, cached: 9
+[23/839bce] calc_indices:evi (9)           | 9 of 9, cached: 9
+[7a/6b97bb] calc_indices:nbr (8)           | 9 of 9, cached: 9
+[b6/de17c9] calc_indices:ndti (9)          | 10 of 10, cached: 10
+[87/17c397] calc_indices:arvi (10)         | 10 of 10, cached: 10
+[b5/5edd6c] calc_indices:savi (9)          | 10 of 10, cached: 10
+[67/88361a] calc_indices:sarvi (9)         | 10 of 10, cached: 10
+[e1/790d59] exp…base_files:explode_pr (12) | 12 of 12, cached: 12
+[-        ] bui…ck:build_vrt_stack_process -
+
+[28/665363] calc_indices:ndvi (11)         | 11 of 11, cached: 11
+[28/10e16d] calc_indices:evi (11)          | 11 of 11, cached: 11
+[29/cc15e7] calc_indices:nbr (11)          | 11 of 11, cached: 11
+[6c/822aa3] calc_indices:ndti (11)         | 11 of 11, cached: 11
+[25/e4c7e9] calc_indices:arvi (11)         | 11 of 11, cached: 11
+[32/fbce44] calc_indices:savi (11)         | 11 of 11, cached: 11
+[c1/96e8c3] calc_indices:sarvi (11)        | 11 of 11, cached: 11
+[19/2cd2ad] exp…base_files:explode_pr (14) | 13 of 13, cached: 13
+[-        ] bui…ck:build_vrt_stack_process -
+
+[72/347c03] calc_indices:ndvi (13)         | 13 of 13, cached: 13
+[df/1a3fba] calc_indices:evi (13)          | 13 of 13, cached: 13
+[fa/443097] calc_indices:nbr (13)          | 13 of 13, cached: 13
+[eb/a094f7] calc_indices:ndti (12)         | 12 of 12, cached: 12
+[7b/df5331] calc_indices:arvi (13)         | 13 of 13, cached: 13
+[21/cab4fd] calc_indices:savi (14)         | 14 of 14, cached: 14
+[c7/f17605] calc_indices:sarvi (12)        | 13 of 13, cached: 13
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15
+[-        ] bui…ck:build_vrt_stack_process -
+
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[8b/d963ca] calc_indices:evi (14)          | 14 of 14, cached: 14
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[-        ] bui…ck:build_vrt_stack_process -
+
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[-        ] bui…ck:build_vrt_stack_process | 0 of 3
+
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[-        ] bui…ck:build_vrt_stack_process | 0 of 12
+
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[-        ] bui…ck:build_vrt_stack_process | 0 of 15
+
+executor >  k8s (1)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[9a/0dbbcc] bui…uild_vrt_stack_process (2) | 0 of 15
+
+executor >  k8s (5)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[ea/24cd99] bui…uild_vrt_stack_process (5) | 0 of 15
+
+executor >  k8s (8)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[c3/041d75] bui…uild_vrt_stack_process (9) | 0 of 15
+
+executor >  k8s (8)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[c3/041d75] bui…uild_vrt_stack_process (9) | 0 of 15
+
+executor >  k8s (9)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[66/16f434] bui…uild_vrt_stack_process (3) | 2 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+
+executor >  k8s (10)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[ea/24cd99] bui…uild_vrt_stack_process (5) | 3 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (12)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[c3/041d75] bui…uild_vrt_stack_process (9) | 5 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (13)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[6b/334056] bui…ild_vrt_stack_process (13) | 5 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (13)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[9a/0dbbcc] bui…uild_vrt_stack_process (2) | 6 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[db/7cc487] bui…ild_vrt_stack_process (15) | 7 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19980329_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/76/05d157d6b72e445df84ab3c5175e22/19980329_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[db/7cc487] bui…ild_vrt_stack_process (15) | 7 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19980329_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/76/05d157d6b72e445df84ab3c5175e22/19980329_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[b8/3e01dc] bui…uild_vrt_stack_process (8) | 8 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19980329_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/76/05d157d6b72e445df84ab3c5175e22/19980329_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000614_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/b8/3e01dc23c67ee857fe6ee712133b26/20000614_LEVEL2_LND07_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[a6/124b4e] bui…ild_vrt_stack_process (10) | 10 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19980329_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/76/05d157d6b72e445df84ab3c5175e22/19980329_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000614_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/b8/3e01dc23c67ee857fe6ee712133b26/20000614_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19860616_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/29/06ee29e72b4d56743703395ab7cffc/19860616_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000910_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/a6/124b4e21e2323b5e0ae8e41fc0d7bb/20000910_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[29/6c9fd8] bui…ild_vrt_stack_process (12) | 11 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19980329_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/76/05d157d6b72e445df84ab3c5175e22/19980329_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000614_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/b8/3e01dc23c67ee857fe6ee712133b26/20000614_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19860616_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/29/06ee29e72b4d56743703395ab7cffc/19860616_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000910_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/a6/124b4e21e2323b5e0ae8e41fc0d7bb/20000910_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20040913_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/29/6c9fd8b9f0becc2910fd8ebb150a5a/20040913_LEVEL2_LND07_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[2a/61e3b7] bui…ild_vrt_stack_process (14) | 12 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19980329_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/76/05d157d6b72e445df84ab3c5175e22/19980329_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000614_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/b8/3e01dc23c67ee857fe6ee712133b26/20000614_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19860616_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/29/06ee29e72b4d56743703395ab7cffc/19860616_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000910_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/a6/124b4e21e2323b5e0ae8e41fc0d7bb/20000910_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20040913_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/29/6c9fd8b9f0becc2910fd8ebb150a5a/20040913_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040703_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/2a/61e3b77bec168507438fb08adc7a9c/20040703_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[db/7cc487] bui…ild_vrt_stack_process (15) | 13 of 15
+[X0103_Y0103, 19880418_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/f4/be4da48d552475a6babcac39599d20/19880418_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20020111_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/66/16f434b3f6eaeb9b90a63b6af8754b/20020111_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040617_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/ea/24cd99ad469b05551b583a106f9f1d/20040617_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19860920_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/bc/2cdf41b7c258e30b6a34b6e451a11c/19860920_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20060623_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/c3/041d75c41fd2a562f716f378440a9a/20060623_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000529_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/9a/0dbbcc76eba975babfdd21a7edeb68/20000529_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19980329_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/76/05d157d6b72e445df84ab3c5175e22/19980329_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000614_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/b8/3e01dc23c67ee857fe6ee712133b26/20000614_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 19860616_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/29/06ee29e72b4d56743703395ab7cffc/19860616_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20000910_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/a6/124b4e21e2323b5e0ae8e41fc0d7bb/20000910_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20040913_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/29/6c9fd8b9f0becc2910fd8ebb150a5a/20040913_LEVEL2_LND07_STACK.vrt]
+[X0103_Y0103, 20040703_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/2a/61e3b77bec168507438fb08adc7a9c/20040703_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 19890523_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/db/7cc4872b5ce01a4b3924e1e248d2cb/19890523_LEVEL2_LND05_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[db/7cc487] bui…ild_vrt_stack_process (15) | 13 of 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[2f/073da2] bui…uild_vrt_stack_process (6) | 14 of 15
+[X0103_Y0103, 20010422_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/2f/073da24a6e777fe301341fcf8ad533/20010422_LEVEL2_LND05_STACK.vrt]
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[6b/334056] bui…ild_vrt_stack_process (13) | 15 of 15 ✔
+[X0103_Y0103, 20010422_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/2f/073da24a6e777fe301341fcf8ad533/20010422_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20010601_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/6b/334056341d1e40af46531f4fb64b6d/20010601_LEVEL2_LND07_STACK.vrt]
+
+executor >  k8s (15)
+[aa/eed063] calc_indices:ndvi (15)         | 15 of 15, cached: 15 ✔
+[5d/afb418] calc_indices:evi (15)          | 15 of 15, cached: 15 ✔
+[ee/c89260] calc_indices:nbr (15)          | 15 of 15, cached: 15 ✔
+[95/5878a6] calc_indices:ndti (15)         | 15 of 15, cached: 15 ✔
+[62/0e075c] calc_indices:arvi (14)         | 15 of 15, cached: 15 ✔
+[bf/5fff6a] calc_indices:savi (15)         | 15 of 15, cached: 15 ✔
+[52/587e2a] calc_indices:sarvi (14)        | 15 of 15, cached: 15 ✔
+[9f/6190b4] exp…base_files:explode_pr (15) | 15 of 15, cached: 15 ✔
+[6b/334056] bui…ild_vrt_stack_process (13) | 15 of 15 ✔
+[X0103_Y0103, 20010422_LEVEL2_LND05, [LND05, LND05, LND05, LND05, LND05, LND05, LND05, LND05], /workspace/work/2f/073da24a6e777fe301341fcf8ad533/20010422_LEVEL2_LND05_STACK.vrt]
+[X0103_Y0103, 20010601_LEVEL2_LND07, [LND07, LND07, LND07, LND07, LND07, LND07, LND07, LND07], /workspace/work/6b/334056341d1e40af46531f4fb64b6d/20010601_LEVEL2_LND07_STACK.vrt]
+Completed at: 19-Jul-2026 19:50:33
+Duration    : 2m 29s
+CPU hours   : 0.1 (98.6% cached)
+Succeeded   : 15
+Cached      : 120
+
+

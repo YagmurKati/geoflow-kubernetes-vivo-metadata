@@ -1,0 +1,33 @@
+name: Validate reproducibility bundle
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validation dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Validate data, RDF, JSON, and repository safety
+        run: python scripts/validate-repository.py
+
+      - name: Check shell syntax
+        run: |
+          for script in scripts/*.sh scripts/lib/*.sh; do
+            bash -n "$script"
+          done
+
+      - name: Verify patch against pinned upstream
+        run: ./scripts/prepare-workflow.sh

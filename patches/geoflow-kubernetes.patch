@@ -1,0 +1,48 @@
+diff --git a/main.nf b/main.nf
+index fc6724e..f10314e 100644
+--- a/main.nf
++++ b/main.nf
+@@ -8,5 +8,2 @@ def single_tileP = input -> {
+-	Boolean tile_x = (input[1][0] =~ /(?<=X00)${params.tx}(?=_Y)/)
+-	Boolean tile_y = (input[1][0] =~ /(?<=Y00)${params.ty}/)
+-	//Boolean sensor = (input[1][0] =~ /(?<=LEVEL2_)${params.s0}.*?(?=_)/)
+-
+-	return tile_x && tile_y
++    String tile = "X${params.tx}_Y${params.ty}"
++    return input[1][0].toString().contains(tile)
+@@ -48 +44,0 @@ workflow {
+-        .filter( { single_tileP(it) } )
+@@ -58 +53,0 @@ workflow {
+-        .filter( { single_tileP(it) } )
+diff --git a/preprocessNF/indices.nf b/preprocessNF/indices.nf
+index 17f8a93..c270066 100644
+--- a/preprocessNF/indices.nf
++++ b/preprocessNF/indices.nf
+@@ -40 +40 @@ process ndvi {
+-    adjust_indices.py ${identifier}_NDVI-temp.tif ${identifier}_NDVI.tif
++    adjust_indices.py -src ${identifier}_NDVI-temp.tif -of ${identifier}_NDVI.tif
+@@ -76 +76 @@ process evi {
+-    adjust_indices.py ${identifier}_EVI-temp.tif ${identifier}_EVI.tif
++    adjust_indices.py -src ${identifier}_EVI-temp.tif -of ${identifier}_EVI.tif
+@@ -112 +112 @@ process nbr {
+-    adjust_indices.py ${identifier}_NBR-temp.tif ${identifier}_NBR.tif
++    adjust_indices.py -src ${identifier}_NBR-temp.tif -of ${identifier}_NBR.tif
+@@ -148 +148 @@ process ndti {
+-    adjust_indices.py ${identifier}_NDTI-temp.tif ${identifier}_NDTI.tif
++    adjust_indices.py -src ${identifier}_NDTI-temp.tif -of ${identifier}_NDTI.tif
+@@ -184 +184 @@ process arvi {
+-    adjust_indices.py ${identifier}_ARVI-temp.tif ${identifier}_ARVI.tif
++    adjust_indices.py -src ${identifier}_ARVI-temp.tif -of ${identifier}_ARVI.tif
+@@ -220 +220 @@ process savi {
+-    adjust_indices.py ${identifier}_SAVI-temp.tif ${identifier}_SAVI.tif
++    adjust_indices.py -src ${identifier}_SAVI-temp.tif -of ${identifier}_SAVI.tif
+@@ -256 +256 @@ process sarvi {
+-    adjust_indices.py ${identifier}_SARVI-temp.tif ${identifier}_SARVI.tif
++    adjust_indices.py -src ${identifier}_SARVI-temp.tif -of ${identifier}_SARVI.tif
+diff --git a/preprocessNF/stack.nf b/preprocessNF/stack.nf
+index 5d3af4a..dbe6116 100644
+--- a/preprocessNF/stack.nf
++++ b/preprocessNF/stack.nf
+@@ -44 +44 @@ process build_vrt_stack_process {
+-    build_vrt-stack.py tmp ${bands}
++    python3 /workspace/geoflow/scripts-python/build_vrt-stack.py tmp ${bands}

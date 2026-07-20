@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite it and the upstream Geoflow workflow."
+title: "Geoflow on Kubernetes with VIVO metadata"
+type: software
+authors:
+  - family-names: Kati
+    given-names: Yagmur
+license: MIT
+repository-code: "https://github.com/YagmurKati/geoflow-kubernetes-vivo-metadata"
+date-released: 2026-07-20
+references:
+  - type: software
+    title: "geoflow"
+    authors:
+      - family-names: Katerndahl
+        given-names: Florian
+      - family-names: Pflugmacher
+        given-names: Dirk
+    repository-code: "https://github.com/CRC-FONDA/geoflow"

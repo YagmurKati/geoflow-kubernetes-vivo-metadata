@@ -1,0 +1,4 @@
+@prefix rm: <http://example.org/ontology/run-metadata#> .
+
+<http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00>
+  rm:backend "Kubernetes" .

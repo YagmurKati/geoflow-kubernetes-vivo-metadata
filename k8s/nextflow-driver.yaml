@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nextflow-driver
+spec:
+  serviceAccountName: nextflow-sa
+  restartPolicy: Never
+  containers:
+    - name: nextflow
+      image: nextflow/nextflow@sha256:b035b9fa7243ed09b9896c2b752d9e399f337827932bd45495efb0aed8e1dca1
+      imagePullPolicy: IfNotPresent
+      command:
+        - /bin/bash
+        - -lc
+        - tail -f /dev/null
+      env:
+        - name: NXF_HOME
+          value: /workspace/.nextflow
+        - name: NXF_OPTS
+          value: -Xms512m -Xmx3g
+      resources:
+        requests:
+          cpu: 500m
+          memory: 1Gi
+        limits:
+          cpu: "2"
+          memory: 4Gi
+      securityContext:
+        runAsUser: 0
+      volumeMounts:
+        - name: workspace
+          mountPath: /workspace
+  volumes:
+    - name: workspace
+      persistentVolumeClaim:
+        claimName: geoflow-pvc

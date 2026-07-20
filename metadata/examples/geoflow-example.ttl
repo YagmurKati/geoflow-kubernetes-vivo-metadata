@@ -1,0 +1,550 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rm: <http://example.org/ontology/run-metadata#> .
+@prefix ex: <http://example.org/vivo-import/run-metadata/> .
+
+rm:WorkflowProcessRun
+  rdf:type rdfs:Class ;
+  rdfs:label "workflow stage run"@en .
+
+rm:hasWorkflowProcess
+  rdf:type rdf:Property ;
+  rdfs:label "workflow stages"@en .
+
+rm:isWorkflowProcessOf
+  rdf:type rdf:Property ;
+  rdfs:label "stage of workflow run"@en .
+
+rm:workflows
+  rdf:type rdf:Property ;
+  rdfs:label "workflows"@en .
+
+rm:hasWorkflow
+  rdf:type rdf:Property ;
+  rdfs:label "workflows"@en .
+
+<http://example.org/vivo-import/run-metadata/engine/nextflow>
+  rdf:type rm:WorkflowEngine ;
+  rdf:type vivo:InformationResource ;
+  rdfs:label "Nextflow"@en ;
+  dcterms:title "Nextflow"@en .
+
+<http://example.org/vivo-import/run-metadata/language/python>
+  rdf:type rm:Language ;
+  rdf:type vivo:InformationResource ;
+  rdfs:label "Python"@en ;
+  dcterms:title "Python"@en .
+
+<http://example.org/vivo-import/run-metadata/language/shell>
+  rdf:type rm:Language ;
+  rdf:type vivo:InformationResource ;
+  rdfs:label "Shell"@en ;
+  dcterms:title "Shell"@en .
+
+<http://example.org/vivo-import/run-metadata/cluster/fonda-cluster>
+  rdf:type rm:ComputeCluster ;
+  rdf:type vivo:InformationResource ;
+  rdfs:label "Fonda Cluster"@en ;
+  dcterms:title "Fonda Cluster"@en ;
+  rm:hasRun <http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> .
+
+<http://example.org/vivo-import/run-metadata/workflow/geoflow-annual-land-cover-mapping-across-germany>
+  rdf:type rm:Workflow ;
+  rdf:type vivo:InformationResource ;
+  rdf:type prov:Entity ;
+  rdfs:label "Geoflow - annual land-cover mapping across Germany"@en ;
+  dcterms:title "Geoflow - annual land-cover mapping across Germany"@en ;
+  rm:workflowName "Geoflow - annual land-cover mapping across Germany" ;
+  rm:workflowCodeLink "https://github.com/CRC-FONDA/geoflow"^^xsd:anyURI ;
+  rm:traceArchive "https://box.hu-berlin.de/d/083e70a0414846a5ae77/"^^xsd:anyURI ;
+  rm:traceTypes "Nextflow trace, execution report, timeline, and execution logs" ;
+  rm:traceDataFormat "TSV, HTML, and plain text" ;
+  rm:workflowEngine <http://example.org/vivo-import/run-metadata/engine/nextflow> ;
+  rm:applicationDomain <http://172.28.33.178:8080/vivo/individual/n5261> ;
+  rm:describesSoftwareExecution <http://141.20.184.157:8080/vivo/individual/a1-publication-doi-10-13140-rg-2-2-25203-60963> ;
+  rm:responsibleResearcher "Florian Katerndahl" ;
+  rm:responsibleResearcher "Dirk Pflugmacher" ;
+  rm:responsibleResearcher <https://fonda.hu-berlin.de/?page_id=2066#FelixKummer> ;
+  rm:subproject <http://141.20.184.157:8080/vivo/individual/fonda-group-b5-transparent-multi-site-data-analysis-workflows-for-earth-observation> ;
+  rm:language <http://example.org/vivo-import/run-metadata/language/python> ;
+  rm:language <http://example.org/vivo-import/run-metadata/language/shell> ;
+  rm:hasRun <http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> ;
+  rm:hasWorkflowRun <http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> .
+
+<https://fonda.hu-berlin.de/?page_id=2066#FelixKummer>
+  rm:workflows <http://example.org/vivo-import/run-metadata/workflow/geoflow-annual-land-cover-mapping-across-germany> .
+
+<http://141.20.184.157:8080/vivo/individual/fonda-group-b5-transparent-multi-site-data-analysis-workflows-for-earth-observation>
+  rm:hasWorkflow <http://example.org/vivo-import/run-metadata/workflow/geoflow-annual-land-cover-mapping-across-germany> .
+
+<http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00>
+  rdf:type rm:RunMetadata ;
+  rdf:type vivo:InformationResource ;
+  rdf:type prov:Entity ;
+  rdfs:label "Geoflow - annual land-cover mapping across Germany · run 2026-07-19 21:48–21:50 CEST"@en ;
+  dcterms:title "Geoflow - annual land-cover mapping across Germany · run 2026-07-19 21:48–21:50 CEST"@en ;
+  rm:workflow <http://example.org/vivo-import/run-metadata/workflow/geoflow-annual-land-cover-mapping-across-germany> ;
+  rm:computeCluster <http://example.org/vivo-import/run-metadata/cluster/fonda-cluster> ;
+  rm:codeVersion "sha256:e8e1fcc1410483b175c4e501e92ed38d09e16c819652b503caba2deb774584c9" ;
+  rm:runStatus "Succeeded" ;
+  rm:workflowEngine <http://example.org/vivo-import/run-metadata/engine/nextflow> ;
+  rm:backend <http://172.28.33.178:8080/vivo/individual/n5703> ;
+  prov:startedAtTime "2026-07-19T21:48:02"^^xsd:dateTime ;
+  prov:endedAtTime "2026-07-19T21:50:34"^^xsd:dateTime ;
+  rm:startTime "2026-07-19T21:48:02"^^xsd:dateTime ;
+  rm:endTime "2026-07-19T21:50:34"^^xsd:dateTime ;
+  rm:durationSeconds "152"^^xsd:integer ;
+  rm:durationCalculationMethod "Wall-clock time from the first to last timestamp in the Nextflow debug log, with trace timestamps as a fallback." ;
+  dcterms:created "2026-07-20T00:00:00+02:00"^^xsd:dateTime ;
+  vivo:dateTimeValue <http://example.org/vivo-import/run-metadata/datetime/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> ;
+  rm:jobName "sick_stonebraker" ;
+  rm:taskCount "135"^^xsd:integer ;
+  rm:podCount "135"^^xsd:integer ;
+  rm:succeededTaskCount "135"^^xsd:integer ;
+  rm:cachedTaskCount "120"^^xsd:integer ;
+  rm:failedTaskCount "0"^^xsd:integer ;
+  rm:abortedTaskCount "0"^^xsd:integer ;
+  rm:resourceAccountingScope "Current Nextflow execution plus origin pods for tasks reused from the Nextflow cache." ;
+  rm:resourceAccountingStartTime "2026-07-19T21:29:52"^^xsd:dateTime ;
+  rm:resourceAccountingEndTime "2026-07-19T21:50:34"^^xsd:dateTime ;
+  rm:traceArchive "https://box.hu-berlin.de/d/083e70a0414846a5ae77/"^^xsd:anyURI ;
+  rm:traceTypes "Nextflow trace, execution report, timeline, and execution logs" ;
+  rm:traceDataFormat "TSV, HTML, and plain text" ;
+  rm:describesSoftwareExecution <http://141.20.184.157:8080/vivo/individual/a1-publication-doi-10-13140-rg-2-2-25203-60963> ;
+  rm:runOperator <https://fonda.hu-berlin.de/?page_id=2066#YagmurKati> ;
+  rm:nextflowSessionId "b700a002-ccc3-4e1a-9405-6dafb1a9c805" ;
+  rm:nextflowVersion "25.04.8" ;
+  rm:gitCommit "acd0d618d0451c65ecb12466a412abb65dda1a87" ;
+  rm:codeModified "true"^^xsd:boolean ;
+  rm:cpuTimeSeconds "0.566443"^^xsd:double ;
+  rm:cpuTimeCalculationMethod "CPU time is the sum of Prometheus container_cpu_usage_seconds_total counter increases for 61 of 135 pod(s). A counter-maximum fallback was used for 61 short-lived pod(s). Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:memoryPeakGB "0.146530304"^^xsd:double ;
+  rm:memoryAvgGB "0.058702908235294116"^^xsd:double ;
+  rm:memoryCalculationMethod "Memory is derived from Prometheus container_memory_working_set_bytes. Values are summed across concurrent workflow pods at each sample; the reported average and peak are calculated from that aggregate time series. Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:energyKWh "0.007702076666666667"^^xsd:double ;
+  rm:carbonEmissionKgCO2e "0.00228751677"^^xsd:double ;
+  rm:carbonIntensityKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensityAssumptionKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensitySource "CO2Map.de preliminary consumption-based direct CO2 intensity (model-based)" ;
+  rm:energyMetricSource "kepler_container_joules_total" ;
+  rm:energyCalculationMethod "Energy is the sum of per-pod Kepler measurements for 79 of 135 pod(s). At least one short-lived pod required a counter-range or counter-maximum estimate because a reliable counter increase was unavailable. Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:energyCalculationUsesFallbackEstimate "true"^^xsd:boolean ;
+  rm:carbonCalculationMethod "Carbon emissions are calculated using the emissions factor method: energy consumption (kWh) multiplied by 0.297 kg/kWh (direct CO2) from CO2Map.de preliminary consumption-based direct CO2 intensity (model-based). The factor is the arithmetic mean of 1 uniformly spaced carbon-intensity measurements over the resource-accounting window." ;
+  rm:carbonIntensitySourceLink "https://api.co2map.de/ConsumptionIntensityPreliminary/"^^xsd:anyURI ;
+  rm:carbonIntensityZone "DE" ;
+  rm:carbonIntensityDataPointCount "1"^^xsd:integer ;
+  rm:carbonIntensityWindowStart "2026-07-19T19:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityWindowEnd "2026-07-19T20:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityIncludesEstimatedData "true"^^xsd:boolean ;
+  rm:carbonIntensityEmissionsBasis "direct CO2" ;
+  rm:carbonIntensityTemporalGranularity "hourly" ;
+  rm:containerImage "floriankaterndahl/geoflow@sha256:96b6c613ed5685beb86746d9f4b764d461ac3bd2553376111f8e0c9a9a3db35d" ;
+  rm:executionHost "hu-worker-c23" ;
+  rm:nodeName "hu-worker-c23" ;
+  rm:executionHost "hu-worker-c45" ;
+  rm:nodeName "hu-worker-c45" ;
+  rm:executionHost "hu-worker-c40" ;
+  rm:nodeName "hu-worker-c40" ;
+  rm:executionHost "hu-worker-c41" ;
+  rm:nodeName "hu-worker-c41" ;
+  rm:executionHost "hu-worker-c28" ;
+  rm:nodeName "hu-worker-c28" ;
+  rm:executionHost "hu-worker-c36" ;
+  rm:nodeName "hu-worker-c36" ;
+  rm:executionHost "hu-worker-c38" ;
+  rm:nodeName "hu-worker-c38" ;
+  rm:executionHost "hu-worker-c44" ;
+  rm:nodeName "hu-worker-c44" ;
+  rm:executionHost "hu-worker-c35" ;
+  rm:nodeName "hu-worker-c35" ;
+  rm:executionHost "hu-worker-c42" ;
+  rm:nodeName "hu-worker-c42" ;
+  rm:executionHost "hu-worker-c26" ;
+  rm:nodeName "hu-worker-c26" ;
+  rm:executionHost "hu-worker-c37" ;
+  rm:nodeName "hu-worker-c37" ;
+  rm:executionHost "hu-worker-c39" ;
+  rm:nodeName "hu-worker-c39" ;
+  rm:executionHost "hu-worker-c25" ;
+  rm:nodeName "hu-worker-c25" ;
+  rm:executionHost "hu-worker-c34" ;
+  rm:nodeName "hu-worker-c34" ;
+  rm:executionHost "hu-worker-c43" ;
+  rm:nodeName "hu-worker-c43" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.784076288"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.4 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.78207744"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780221952"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780221952"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.4 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780226048"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.78021376"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780221952"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.782081536"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780197376"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780230144"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.784055808"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.4 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780209664"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.78021376"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.784072192"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.4 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780226048"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.2 LTS" ;
+  rm:allocatableCpu "32" ;
+  rm:allocatableMemoryGB "269.780221952"^^xsd:double ;
+  rm:architecture "amd64" ;
+  rm:kernelVersion "5.15.0-177-generic" ;
+  rm:kubeletVersion "v1.27.7" ;
+  rm:osImage "Ubuntu 22.04.4 LTS" ;
+  rm:gpuRequested "false"^^xsd:boolean ;
+  rm:gpuMetricsAvailable "false"^^xsd:boolean ;
+  rm:gpuCapableNodeUsed "false"^^xsd:boolean ;
+  rm:gpuUsageStatus "CPU-only workflow run" ;
+  rm:hasWorkflowProcess <http://example.org/vivo-import/run-metadata/process/geoflow-annual-land-cover-mapping-across-germany-spectral-index-calculation-b700a002-ccc3-4e1a-9405-6dafb1a9c805> ;
+  rm:hasWorkflowProcess <http://example.org/vivo-import/run-metadata/process/geoflow-annual-land-cover-mapping-across-germany-base-band-extraction-b700a002-ccc3-4e1a-9405-6dafb1a9c805> ;
+  rm:hasWorkflowProcess <http://example.org/vivo-import/run-metadata/process/geoflow-annual-land-cover-mapping-across-germany-vrt-stack-construction-b700a002-ccc3-4e1a-9405-6dafb1a9c805> .
+
+<http://141.20.184.157:8080/vivo/individual/a1-publication-doi-10-13140-rg-2-2-25203-60963>
+  rm:hasWorkflowRun <http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> .
+
+<http://example.org/vivo-import/run-metadata/datetime/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00>
+  rdf:type vivo:DateTimeValue ;
+  vivo:dateTime "2026-07-19T21:48:02"^^xsd:dateTime ;
+  vivo:dateTimePrecision vivo:yearMonthDayTimePrecision .
+
+<http://example.org/vivo-import/run-metadata/process/geoflow-annual-land-cover-mapping-across-germany-spectral-index-calculation-b700a002-ccc3-4e1a-9405-6dafb1a9c805>
+  rdf:type rm:WorkflowProcessRun ;
+  rdf:type vivo:InformationResource ;
+  rdf:type prov:Entity ;
+  rdfs:label "Spectral index calculation"@en ;
+  dcterms:title "Spectral index calculation"@en ;
+  rm:jobName "Spectral index calculation" ;
+  rm:runStatus "Succeeded" ;
+  rm:taskCount "105"^^xsd:integer ;
+  rm:podCount "105"^^xsd:integer ;
+  rm:succeededTaskCount "105"^^xsd:integer ;
+  rm:cachedTaskCount "105"^^xsd:integer ;
+  rm:failedTaskCount "0"^^xsd:integer ;
+  rm:abortedTaskCount "0"^^xsd:integer ;
+  prov:startedAtTime "2026-07-19T21:29:52"^^xsd:dateTime ;
+  prov:endedAtTime "2026-07-19T21:35:46"^^xsd:dateTime ;
+  rm:durationSeconds "354"^^xsd:integer ;
+  rm:durationCalculationMethod "Original execution window of the Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:isWorkflowProcessOf <http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> ;
+  rm:taskName "calc_indices:arvi (1)" ;
+  rm:taskName "calc_indices:ndvi (2)" ;
+  rm:taskName "calc_indices:ndti (2)" ;
+  rm:taskName "calc_indices:nbr (2)" ;
+  rm:taskName "calc_indices:evi (2)" ;
+  rm:taskName "calc_indices:sarvi (1)" ;
+  rm:taskName "calc_indices:evi (1)" ;
+  rm:taskName "calc_indices:ndvi (1)" ;
+  rm:taskName "calc_indices:ndti (1)" ;
+  rm:taskName "calc_indices:nbr (1)" ;
+  rm:taskName "calc_indices:savi (1)" ;
+  rm:taskName "calc_indices:savi (2)" ;
+  rm:taskName "calc_indices:arvi (2)" ;
+  rm:taskName "calc_indices:sarvi (2)" ;
+  rm:taskName "calc_indices:arvi (3)" ;
+  rm:taskName "calc_indices:arvi (4)" ;
+  rm:taskName "calc_indices:sarvi (4)" ;
+  rm:taskName "calc_indices:savi (4)" ;
+  rm:taskName "calc_indices:sarvi (3)" ;
+  rm:taskName "calc_indices:evi (3)" ;
+  rm:taskName "calc_indices:ndti (3)" ;
+  rm:taskName "calc_indices:ndti (4)" ;
+  rm:taskName "calc_indices:nbr (3)" ;
+  rm:taskName "calc_indices:evi (4)" ;
+  rm:taskName "calc_indices:savi (3)" ;
+  rm:taskName "calc_indices:nbr (4)" ;
+  rm:taskName "calc_indices:ndvi (4)" ;
+  rm:taskName "calc_indices:ndvi (3)" ;
+  rm:taskName "calc_indices:sarvi (5)" ;
+  rm:taskName "calc_indices:evi (5)" ;
+  rm:taskName "calc_indices:ndti (6)" ;
+  rm:taskName "calc_indices:arvi (5)" ;
+  rm:taskName "calc_indices:ndvi (6)" ;
+  rm:taskName "calc_indices:savi (6)" ;
+  rm:taskName "calc_indices:savi (5)" ;
+  rm:taskName "calc_indices:ndti (5)" ;
+  rm:taskName "calc_indices:nbr (5)" ;
+  rm:taskName "calc_indices:arvi (6)" ;
+  rm:taskName "calc_indices:sarvi (6)" ;
+  rm:taskName "calc_indices:sarvi (7)" ;
+  rm:taskName "calc_indices:evi (6)" ;
+  rm:taskName "calc_indices:ndvi (5)" ;
+  rm:taskName "calc_indices:nbr (6)" ;
+  rm:taskName "calc_indices:evi (7)" ;
+  rm:taskName "calc_indices:ndti (7)" ;
+  rm:taskName "calc_indices:arvi (8)" ;
+  rm:taskName "calc_indices:nbr (7)" ;
+  rm:taskName "calc_indices:savi (7)" ;
+  rm:taskName "calc_indices:ndti (8)" ;
+  rm:taskName "calc_indices:sarvi (8)" ;
+  rm:taskName "calc_indices:savi (8)" ;
+  rm:taskName "calc_indices:arvi (7)" ;
+  rm:taskName "calc_indices:ndvi (8)" ;
+  rm:taskName "calc_indices:evi (8)" ;
+  rm:taskName "calc_indices:nbr (9)" ;
+  rm:taskName "calc_indices:savi (10)" ;
+  rm:taskName "calc_indices:arvi (9)" ;
+  rm:taskName "calc_indices:ndvi (7)" ;
+  rm:taskName "calc_indices:sarvi (10)" ;
+  rm:taskName "calc_indices:ndti (10)" ;
+  rm:taskName "calc_indices:ndvi (9)" ;
+  rm:taskName "calc_indices:sarvi (9)" ;
+  rm:taskName "calc_indices:evi (9)" ;
+  rm:taskName "calc_indices:nbr (8)" ;
+  rm:taskName "calc_indices:ndti (9)" ;
+  rm:taskName "calc_indices:savi (9)" ;
+  rm:taskName "calc_indices:arvi (10)" ;
+  rm:taskName "calc_indices:ndvi (10)" ;
+  rm:taskName "calc_indices:nbr (10)" ;
+  rm:taskName "calc_indices:nbr (11)" ;
+  rm:taskName "calc_indices:ndvi (11)" ;
+  rm:taskName "calc_indices:sarvi (11)" ;
+  rm:taskName "calc_indices:evi (10)" ;
+  rm:taskName "calc_indices:arvi (11)" ;
+  rm:taskName "calc_indices:evi (11)" ;
+  rm:taskName "calc_indices:savi (11)" ;
+  rm:taskName "calc_indices:ndti (11)" ;
+  rm:taskName "calc_indices:ndvi (12)" ;
+  rm:taskName "calc_indices:ndti (12)" ;
+  rm:taskName "calc_indices:savi (13)" ;
+  rm:taskName "calc_indices:ndvi (13)" ;
+  rm:taskName "calc_indices:arvi (12)" ;
+  rm:taskName "calc_indices:sarvi (13)" ;
+  rm:taskName "calc_indices:savi (12)" ;
+  rm:taskName "calc_indices:nbr (12)" ;
+  rm:taskName "calc_indices:sarvi (12)" ;
+  rm:taskName "calc_indices:evi (12)" ;
+  rm:taskName "calc_indices:arvi (13)" ;
+  rm:taskName "calc_indices:nbr (13)" ;
+  rm:taskName "calc_indices:evi (13)" ;
+  rm:taskName "calc_indices:savi (14)" ;
+  rm:taskName "calc_indices:ndti (13)" ;
+  rm:taskName "calc_indices:ndvi (14)" ;
+  rm:taskName "calc_indices:evi (14)" ;
+  rm:taskName "calc_indices:ndti (14)" ;
+  rm:taskName "calc_indices:nbr (14)" ;
+  rm:taskName "calc_indices:sarvi (15)" ;
+  rm:taskName "calc_indices:ndvi (15)" ;
+  rm:taskName "calc_indices:arvi (15)" ;
+  rm:taskName "calc_indices:sarvi (14)" ;
+  rm:taskName "calc_indices:arvi (14)" ;
+  rm:taskName "calc_indices:savi (15)" ;
+  rm:taskName "calc_indices:ndti (15)" ;
+  rm:taskName "calc_indices:nbr (15)" ;
+  rm:taskName "calc_indices:evi (15)" ;
+  rm:cpuTimeSeconds "0.557338"^^xsd:double ;
+  rm:cpuTimeCalculationMethod "CPU time is the sum of Prometheus container_cpu_usage_seconds_total counter increases for 60 of 105 pod(s). A counter-maximum fallback was used for 60 short-lived pod(s). Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:memoryPeakGB "0.146530304"^^xsd:double ;
+  rm:memoryAvgGB "0.07998045495652173"^^xsd:double ;
+  rm:memoryCalculationMethod "Memory is derived from Prometheus container_memory_working_set_bytes. Values are summed across concurrent workflow pods at each sample; the reported average and peak are calculated from that aggregate time series. Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:energyKWh "0.0075622791666666665"^^xsd:double ;
+  rm:carbonEmissionKgCO2e "0.0022459969124999997"^^xsd:double ;
+  rm:carbonIntensityKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensityAssumptionKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensitySource "CO2Map.de preliminary consumption-based direct CO2 intensity (model-based)" ;
+  rm:energyMetricSource "kepler_container_joules_total" ;
+  rm:energyCalculationMethod "Energy is the sum of per-pod Kepler measurements for 66 of 105 pod(s). At least one short-lived pod required a counter-range or counter-maximum estimate because a reliable counter increase was unavailable. Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:energyCalculationUsesFallbackEstimate "true"^^xsd:boolean ;
+  rm:carbonCalculationMethod "Carbon emissions are calculated using the emissions factor method: energy consumption (kWh) multiplied by 0.297 kg/kWh (direct CO2) from CO2Map.de preliminary consumption-based direct CO2 intensity (model-based). The factor is the arithmetic mean of 1 uniformly spaced carbon-intensity measurements over the resource-accounting window." ;
+  rm:carbonIntensitySourceLink "https://api.co2map.de/ConsumptionIntensityPreliminary/"^^xsd:anyURI ;
+  rm:carbonIntensityZone "DE" ;
+  rm:carbonIntensityDataPointCount "1"^^xsd:integer ;
+  rm:carbonIntensityWindowStart "2026-07-19T19:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityWindowEnd "2026-07-19T20:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityIncludesEstimatedData "true"^^xsd:boolean ;
+  rm:carbonIntensityEmissionsBasis "direct CO2" ;
+  rm:carbonIntensityTemporalGranularity "hourly" ;
+  rm:parallelismNote "CPU time can exceed wall-clock duration because Nextflow tasks execute concurrently." .
+
+<http://example.org/vivo-import/run-metadata/process/geoflow-annual-land-cover-mapping-across-germany-base-band-extraction-b700a002-ccc3-4e1a-9405-6dafb1a9c805>
+  rdf:type rm:WorkflowProcessRun ;
+  rdf:type vivo:InformationResource ;
+  rdf:type prov:Entity ;
+  rdfs:label "Base-band extraction"@en ;
+  dcterms:title "Base-band extraction"@en ;
+  rm:jobName "Base-band extraction" ;
+  rm:runStatus "Succeeded" ;
+  rm:taskCount "15"^^xsd:integer ;
+  rm:podCount "15"^^xsd:integer ;
+  rm:succeededTaskCount "15"^^xsd:integer ;
+  rm:cachedTaskCount "15"^^xsd:integer ;
+  rm:failedTaskCount "0"^^xsd:integer ;
+  rm:abortedTaskCount "0"^^xsd:integer ;
+  prov:startedAtTime "2026-07-19T21:29:53"^^xsd:dateTime ;
+  prov:endedAtTime "2026-07-19T21:34:27"^^xsd:dateTime ;
+  rm:durationSeconds "274"^^xsd:integer ;
+  rm:durationCalculationMethod "Original execution window of the Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:isWorkflowProcessOf <http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> ;
+  rm:taskName "explode_base_files:explode_pr (2)" ;
+  rm:taskName "explode_base_files:explode_pr (1)" ;
+  rm:taskName "explode_base_files:explode_pr (3)" ;
+  rm:taskName "explode_base_files:explode_pr (4)" ;
+  rm:taskName "explode_base_files:explode_pr (5)" ;
+  rm:taskName "explode_base_files:explode_pr (6)" ;
+  rm:taskName "explode_base_files:explode_pr (7)" ;
+  rm:taskName "explode_base_files:explode_pr (8)" ;
+  rm:taskName "explode_base_files:explode_pr (9)" ;
+  rm:taskName "explode_base_files:explode_pr (10)" ;
+  rm:taskName "explode_base_files:explode_pr (11)" ;
+  rm:taskName "explode_base_files:explode_pr (12)" ;
+  rm:taskName "explode_base_files:explode_pr (14)" ;
+  rm:taskName "explode_base_files:explode_pr (13)" ;
+  rm:taskName "explode_base_files:explode_pr (15)" ;
+  rm:cpuTimeCalculationMethod "CPU time is the sum of Prometheus container_cpu_usage_seconds_total counter increases for 0 of 15 pod(s). Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:memoryCalculationMethod "Memory is derived from Prometheus container_memory_working_set_bytes. Values are summed across concurrent workflow pods at each sample; the reported average and peak are calculated from that aggregate time series. Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:energyKWh "0.00010405583333333333"^^xsd:double ;
+  rm:carbonEmissionKgCO2e "3.09045825e-05"^^xsd:double ;
+  rm:carbonIntensityKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensityAssumptionKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensitySource "CO2Map.de preliminary consumption-based direct CO2 intensity (model-based)" ;
+  rm:energyMetricSource "kepler_container_joules_total" ;
+  rm:energyCalculationMethod "Energy is the sum of per-pod Kepler measurements for 7 of 15 pod(s). At least one short-lived pod required a counter-range or counter-maximum estimate because a reliable counter increase was unavailable. Metrics include the original Kubernetes pods that produced outputs reused from the Nextflow cache." ;
+  rm:energyCalculationUsesFallbackEstimate "true"^^xsd:boolean ;
+  rm:carbonCalculationMethod "Carbon emissions are calculated using the emissions factor method: energy consumption (kWh) multiplied by 0.297 kg/kWh (direct CO2) from CO2Map.de preliminary consumption-based direct CO2 intensity (model-based). The factor is the arithmetic mean of 1 uniformly spaced carbon-intensity measurements over the resource-accounting window." ;
+  rm:carbonIntensitySourceLink "https://api.co2map.de/ConsumptionIntensityPreliminary/"^^xsd:anyURI ;
+  rm:carbonIntensityZone "DE" ;
+  rm:carbonIntensityDataPointCount "1"^^xsd:integer ;
+  rm:carbonIntensityWindowStart "2026-07-19T19:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityWindowEnd "2026-07-19T20:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityIncludesEstimatedData "true"^^xsd:boolean ;
+  rm:carbonIntensityEmissionsBasis "direct CO2" ;
+  rm:carbonIntensityTemporalGranularity "hourly" ;
+  rm:parallelismNote "CPU time can exceed wall-clock duration because Nextflow tasks execute concurrently." .
+
+<http://example.org/vivo-import/run-metadata/process/geoflow-annual-land-cover-mapping-across-germany-vrt-stack-construction-b700a002-ccc3-4e1a-9405-6dafb1a9c805>
+  rdf:type rm:WorkflowProcessRun ;
+  rdf:type vivo:InformationResource ;
+  rdf:type prov:Entity ;
+  rdfs:label "VRT stack construction"@en ;
+  dcterms:title "VRT stack construction"@en ;
+  rm:jobName "VRT stack construction" ;
+  rm:runStatus "Succeeded" ;
+  rm:taskCount "15"^^xsd:integer ;
+  rm:podCount "15"^^xsd:integer ;
+  rm:succeededTaskCount "15"^^xsd:integer ;
+  rm:cachedTaskCount "0"^^xsd:integer ;
+  rm:failedTaskCount "0"^^xsd:integer ;
+  rm:abortedTaskCount "0"^^xsd:integer ;
+  prov:startedAtTime "2026-07-19T21:48:13"^^xsd:dateTime ;
+  prov:endedAtTime "2026-07-19T21:50:22"^^xsd:dateTime ;
+  rm:durationSeconds "129"^^xsd:integer ;
+  rm:durationCalculationMethod "Wall-clock time from the earliest task submission to the latest task completion or workflow termination in this stage." ;
+  rm:isWorkflowProcessOf <http://example.org/vivo-import/run-metadata/run/yagmur-geoflow-annual-land-cover-mapping-across-germany-b700a002-ccc3-4e1a-9405-6dafb1a9c805-2026-07-19t19-48-02-979000-00-00> ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (1)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (3)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (5)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (7)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (9)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (2)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (4)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (8)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (11)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (10)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (12)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (14)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (15)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (6)" ;
+  rm:taskName "build_vrt_stack:build_vrt_stack_process (13)" ;
+  rm:cpuTimeSeconds "0.009105"^^xsd:double ;
+  rm:cpuTimeCalculationMethod "CPU time is the sum of Prometheus container_cpu_usage_seconds_total counter increases for 1 of 15 pod(s). A counter-maximum fallback was used for 1 short-lived pod(s)." ;
+  rm:memoryPeakGB "0.00217088"^^xsd:double ;
+  rm:memoryAvgGB "0.00217088"^^xsd:double ;
+  rm:memoryCalculationMethod "Memory is derived from Prometheus container_memory_working_set_bytes. Values are summed across concurrent workflow pods at each sample; the reported average and peak are calculated from that aggregate time series." ;
+  rm:energyKWh "3.5741666666666664e-05"^^xsd:double ;
+  rm:carbonEmissionKgCO2e "1.0615274999999998e-05"^^xsd:double ;
+  rm:carbonIntensityKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensityAssumptionKgCO2ePerKWh "0.297"^^xsd:double ;
+  rm:carbonIntensitySource "CO2Map.de preliminary consumption-based direct CO2 intensity (model-based)" ;
+  rm:energyMetricSource "kepler_container_joules_total" ;
+  rm:energyCalculationMethod "Energy is the sum of per-pod Kepler measurements for 6 of 15 pod(s). At least one short-lived pod required a counter-range or counter-maximum estimate because a reliable counter increase was unavailable." ;
+  rm:energyCalculationUsesFallbackEstimate "true"^^xsd:boolean ;
+  rm:carbonCalculationMethod "Carbon emissions are calculated using the emissions factor method: energy consumption (kWh) multiplied by 0.297 kg/kWh (direct CO2) from CO2Map.de preliminary consumption-based direct CO2 intensity (model-based). The factor is the arithmetic mean of 1 uniformly spaced carbon-intensity measurements over the resource-accounting window." ;
+  rm:carbonIntensitySourceLink "https://api.co2map.de/ConsumptionIntensityPreliminary/"^^xsd:anyURI ;
+  rm:carbonIntensityZone "DE" ;
+  rm:carbonIntensityDataPointCount "1"^^xsd:integer ;
+  rm:carbonIntensityWindowStart "2026-07-19T19:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityWindowEnd "2026-07-19T20:00:00Z"^^xsd:dateTime ;
+  rm:carbonIntensityIncludesEstimatedData "true"^^xsd:boolean ;
+  rm:carbonIntensityEmissionsBasis "direct CO2" ;
+  rm:carbonIntensityTemporalGranularity "hourly" ;
+  rm:parallelismNote "CPU time can exceed wall-clock duration because Nextflow tasks execute concurrently." .
