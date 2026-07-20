@@ -66,8 +66,8 @@ Clone the repository and choose the namespace and storage class:
 git clone https://github.com/YagmurKati/geoflow-kubernetes-vivo-metadata.git
 cd geoflow-kubernetes-vivo-metadata
 
-export NS=yagmur
-export STORAGE_CLASS=cephfs
+export NS=<your-namespace>            # tested: yagmur
+export STORAGE_CLASS=<your-class>     # tested: cephfs
 ```
 
 Check access, fetch and patch the pinned workflow, and deploy the support pods:
